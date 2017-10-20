@@ -6,6 +6,6 @@ Ansible playbook to install Xen-tools on Linux.
 
 You can use the following command to download the xen-tools or visit this link.
 
-wget https://xen-tools.org/software/xen-tools/xen-tools-4.6.2.tar.gz
+    wget https://xen-tools.org/software/xen-tools/xen-tools-4.6.2.tar.gz
 
-[For tutorial visit](https://www.installvirtual.com/ansible-playbook-install-xen-tool-linux/)
+[For tutorial visit here](https://www.installvirtual.com/ansible-playbook-install-xen-tool-linux/)
