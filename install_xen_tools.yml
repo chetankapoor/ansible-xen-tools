@@ -1,0 +1,8 @@
+---
+- hosts: "{{ hosts }}"
+  remote_user: "{{ user }}"
+  tasks:
+   - name: Copy xen tools to the servers
+     copy: src=~/Linux dest=/mnt mode=0777
+   - name: Install Xen tools
+     command: sh /mnt/Linux/install.sh
